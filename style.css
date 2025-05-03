@@ -1,0 +1,53 @@
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #000;
+  color: gold;
+}
+.checkout-container {
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 20px;
+  border: 1px solid gold;
+  border-radius: 16px;
+  background: #111;
+}
+.checkout-container h1 {
+  text-align: center;
+  font-size: 1.8rem;
+}
+.tagline {
+  text-align: center;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+input, button {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  background: #222;
+  border: 1px solid gold;
+  color: gold;
+  border-radius: 8px;
+}
+.color-select {
+  margin-bottom: 15px;
+}
+.color-options {
+  display: flex;
+  gap: 10px;
+}
+.color-btn {
+  flex: 1;
+  background: #333;
+  border: 1px solid gold;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  color: gold;
+}
+.color-btn.active {
+  background: gold;
+  color: #000;
+}
